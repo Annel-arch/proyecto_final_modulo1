@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Pasco - Turismo en Perú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+            margin-top: 92px; /* Ajusta la altura del header tiene que sumar 100 adding + margin top*/
+        }
+        header {
+
+            background-color: #133309;
+            color: rgb(255, 255, 255);
+            padding: 8px;
+            text-align: center;
+            position: fixed; /* Mantiene el header fijo en la parte superior */
+            top: 0; /* Coloca el header en la parte superior */
+            left: 0; /* Alinea el header a la izquierda */
+            width: 100%; /* Asegura que el header ocupe todo el ancho de la pantalla */
+        }
+        nav a {
+            color: rgb(229, 228, 228);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+            
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .descripcion-largo img {
+            width: 100%;
+            max-height: 500px;
+            border-radius: 8px;
+            text-align: center;
+        }    
+        .lugar, .paquete {
+            margin-bottom: 20px;
+        }
+        .lugar img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .lugar h3, .paquete h3 {
+            color: #468519;
+        }
+        .paquete button {
+            background-color: #468519;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .paquete button:hover {
+            background-color: #c8391d;
+        }
+        footer {
+            background-color: #468519;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin-top: 10px;
+        }
+        form input, form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #468519;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight:bolder;
+            
+        }
+        form button:hover {
+            background-color: #468519;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>DESCUBRIENDO CERRO DE PASCO</h1>
+        <nav>
+            <a href="#descripcion">Descripción</a>
+            <a href="#lugares">Lugares Turísticos</a>
+            <a href="#paquetes">Paquetes Turísticos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <!-- Descripción principal -->
+    <section id="descripcion">
+        <div class="descripcion-largo">
+        <p> Cerro de Pasco es una ciudad del centro del Perú, capital del Departamento de Pasco, situada a un poco más de 4.330 m.s.n.m. Por su altura, se puede considerar que es una de las ciudades más altas del planeta. Considerada, por muchos años, como la capital minera del Perú, por sus recursos en plata, cobre, zinc y plomo. La ciudad se ubica alrededor de la mina de tajo abierto más alta del mundo, que se extiende sobre 2 km y casi 400 m de profundidad. En Cerro de Pasco, los veranos son cortos, con sol en el día y hielo por las noches, y los inviernos son largos, con niebla y lluvias constantes. Durante el transcurso del año, la temperatura generalmente varía de -5 °C a 14 °C. </p>
+        <img src="https://images.adsttc.com/media/images/62e8/395d/bcd1/e801/66b7/7785/newsletter/el-caso-de-cerro-de-pasco-una-ciudad-que-desaparece-por-la-mineria_2.jpg?1659386261" alt="Cerro de Pasco">
+        </div>
+    </section>
+    <!-- Sección de lugares turísticos -->
+    <section id="lugares">
+        <h2>Lugares Turísticos</h2>
+        <div class="lugar">
+            <h3>Plaza de Armas de Cerro de Pasco</h3>
+            <p>Conocido como Plaza Daniel Alcides Carrion, llamado así a pedido del Colegio de Médicos del Perú, en honor al héroe de la medicina peruana. La estatua que compone esta plaza tiene una altura aproximada de 5.50 metros de altura. En 1780 fue un punto principal de comercio en Pasco. </p>
+            <img src="https://pbs.twimg.com/media/GOjRKULXEAAH1TA.jpg:large" alt="Plaza de Armas de Pasco">
+            
+        </div>
+        <div class="lugar">
+            <h3>Laguna de Patarcocha</h3>
+            <p>La laguna de Patarcocha es el único recurso hídrico con la que cuenta actualmente la ciudad de Cerro de Pasco; que se ubica en el distrito de Chaupimarca, a una altitud de 4,360 m.s.n.m., la cual tiene un perímetro promedio de 1,400 metros. En la actualidad, es un punto contaminado por las viviendas aledañas, y se encuentra en proceso de recuperación. </p>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5I8Z5DLIjKeMhnsnOIYIGmsnGay-cgCE_OFh20vi3BipMAuAq_F_JQjWNCVlNl_5jt_W46UAqCim3GBGfIGAsZ-PFtnKN2nrrL7WTuNt9N0kcWytq2vb1-umqFBz-tm4dJhb8hTvEZ-1g/s1600/6.jpg" alt="Laguna de Patarcocha">
+            
+        </div>
+        <div class="lugar">
+            <h3>Bosque de Piedras de Huayllay</h3>
+            <p>En una extensión de 6815 hectáreas, el Bosque de Piedras de Huayllay alberga más de 480 figuras rocosas de gran belleza y singularidad, formadas por antiguas chimeneas volcánicas moldeadas por la erosión del viento, el agua y el deshielo de los glaciares.</p>
+            <img src="https://www.rumbosdelperu.com/wp-content/uploads/2019/09/Bosque-Huayllay-.jpg" alt="Elefante de Piedra">
+        </div>
+    </section>
+
+    <!-- Sección de paquetes turísticos -->
+    <section id="paquetes">
+        <h2>Paquetes Turísticos</h2>
+        <div class="paquete">
+            <h3>Paquete Aventura en Huayllay</h3>
+            <p>Incluye transporte, guía turístico y actividades de senderismo en la ruta 1 y 2. ¡Explora el bosque de piedras!</p>
+            <p><strong>Precio:</strong> S/. 100 por persona</p>
+            <button>Reservar ahora</button>
+        </div>
+        <div class="paquete">
+            <h3>Paquete Profundidades en Huayllay </h3>
+            <p>Incluye transporte, guía turístico, accesorios de camping y actividades de senderismo en la ruta 3 y 4. ¡Explora la profundidad bosque de piedras!</p>
+            <p><strong>Precio:</strong> S/. 200 por persona</p>
+            <button>Reservar ahora</button>
+        </div>
+        <div class="paquete">
+            <h3>City Tour por Pasco</h3>
+            <p>Descubre los principales atractivos de la ciudad, incluyendo la Catedral y la Laguna de Patarcocha.</p>
+            <p><strong>Precio:</strong> S/. 50 por persona</p>
+            <button>Reservar ahora</button>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Descubre Pasco con Annel Yopla. Todos los derechos reservados.</p>
+        <nav>
+            <a href="#">Política de privacidad</a> |
+            <a href="#">Términos de servicio</a> |
+            <a href="#">Contacto</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
